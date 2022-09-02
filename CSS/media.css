@@ -1,0 +1,308 @@
+@media (max-width:1270px) {
+  .img{
+    max-width:300px;
+    width: 100%;
+  }  
+ #img1{
+    max-width:300px;
+ }
+  
+ #img2{
+    max-width:150px;
+ }
+    }
+
+@media (max-width:992px) {
+header{
+        background-image: url(../img/minibg.png);
+       }
+.burgerMenu{
+     display: block;
+    }
+.nav-ul{
+    display: none;
+   
+   }
+.footUl1{
+    display: flex ;
+    flex-direction: column;
+    row-gap: 20px;
+   }
+.num{
+    display: none;
+}
+.img1{
+    display: none;
+}
+.iconCont{
+    margin-top: 100px;
+}
+.ic1, .ic2, .ic3{
+    width: 115px;
+    height: 115px;
+  }
+  .slick-initialized{
+    max-width: 450px !important;
+    width: 100%;
+    margin: 0 auto ;
+}
+section {
+     margin: 0 auto 38px;
+}
+}
+@media (max-width:768px) {
+
+ .heading{
+    row-gap: 30px;
+    margin-top: 36px;
+}
+.heading h1{
+    font-size:46px
+}
+.heading h3{
+    font-size:36px
+}
+.heading h1,.heading h3,.heading p{
+    text-align: left;
+  }
+.btn{
+    margin: 0;
+}
+.heading{
+    row-gap: 30px;
+    margin-top: 18px;
+}
+#formHeading{
+    font-size: 35px;
+    text-align: left;
+}
+.btns{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+ }
+.btnForm{
+    width: 90%;
+}
+.radios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     }
+.col1, .col2{
+    width: 90%;
+    display: flex;
+    column-gap: 15px;
+    justify-content: flex-start;
+}
+.col1 div{
+     margin-bottom: 15px;
+    
+}
+.col2 div{
+    margin-bottom: 15px;
+}
+.inputs{
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+   
+}
+.row1{
+    width: 100%;
+    flex-direction: column;
+}
+.row1 input{
+    width: 90%;
+    margin-bottom: 15px;
+}
+.row2{
+    width: 100%;
+}
+#textarea{
+    width: 90%;
+   }
+
+.btnForm2{
+    bottom: 15px;
+    left: 44px;
+    transform: translate(0%);
+}
+.sec3Head{
+   align-items: flex-start;
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+
+.sec3p{
+    text-align: left;
+   
+}
+.foot-row1{
+    flex-direction: column;
+}
+.footUl1 {
+    display: flex;
+    margin: 50px 0;
+    row-gap: 15px;
+    align-items:flex-start
+}
+.socials{
+    flex-direction: column;
+    row-gap: 20px;
+    order: -1;
+    width: 20%;
+    align-self: end;
+    }
+.foot-row1 {
+    padding: 15px;
+    }
+.foot-row2 p {
+    padding: 20px 15px 30px;
+    }
+}
+@media (max-width:550px) {
+    .headFoot{
+        flex-wrap: wrap;
+    }
+    .frsIc{
+        order: 1;
+    }
+    .secIc{
+        order: 2;
+    }
+    .thrdIc{
+        order: 2;
+    }
+    .img2{
+        order: 1;
+    }
+    .iconCont{
+        max-width: 200px;
+        width: 100%;
+    }
+    #img2{
+        max-width:220px;
+     }
+     .img2 {
+        margin-top: 57px;
+    }
+    .item{
+        width:310px !important;
+        position: relative;
+        height: 350px;
+        padding:10px;
+        margin: auto;
+           }
+      .yojInfo{
+          max-width: 120px;
+          margin-top: 25px;
+       }
+      .yojImg{
+       width: 120px;
+       object-fit: contain;
+      }
+}
+@media (max-width:480px) {
+    .iconCont{
+        max-width: 140px;
+        width: 100%;
+    }
+   
+    #img2{
+        max-width:180px;
+     }
+     .img2 {
+        margin-top: 65px;
+    }
+    .btnForm2{
+        width: 100%;
+     }
+}
+@media (max-width:458px) {
+   
+    .fa-bars{
+            font-size:30px
+         }
+    .logo{
+        width: 56px;
+        height: 26px;
+       }
+    .logo img{
+        width: 100%
+    
+       }
+    .phone {
+        width: 35px;
+        height: 35px;
+    }
+    .phone img{
+        width: 13px;
+        height: 11px;
+    }
+    
+    .bagImg{
+        display: inline-block;
+        width: 26px;
+        height: 19px;
+    }
+    
+    .bagImg  img{
+        width: 100%;
+    }
+    .inBag{
+        top: -9px;
+     }
+     .heading{
+        row-gap: 25px;
+        margin-top: 18px;
+    }
+   
+    .btn{
+        max-width: 281px;
+        width: 100%;
+        height: 59px;
+     }
+    .heading h1{
+        font-size:36px;
+
+    }
+    .heading h3{
+        font-size:24px
+    }
+    .heading p{
+        font-size:12px
+    }
+    .iconCont {
+        margin-top: 40px;
+    }
+    .btnForm2{
+        max-width: 200px;
+        width: 100%;
+     }
+    }
+    @media (max-width:350px) {
+        .iconCont{
+            max-width: 100px;
+            width: 100%;
+        }
+        #img2{
+            max-width:150px;
+         }
+         .img2 {
+            margin-top: 100px;
+        }
+        .btnForm2{
+
+            width: 100%;
+         }
+         #formHeading {
+            font-size: 27px;
+            
+        }
+       
+    }
